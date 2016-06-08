@@ -1,12 +1,19 @@
-.movie_poster{
-  width: 150px;
-  height: 221px;
+html{
+  font-family: sans-serif;
 }
-
 #container{
-
+  text-align: center;
 }
-
-#center_column{
-  
+@media screen and (min-width: 480px) {
+  img {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 479px) {
+  img {
+    height: 50px;
+  }
+  p {
+    font-size: 8px;
+  }
 }
